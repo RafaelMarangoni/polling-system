@@ -12,6 +12,10 @@ Este projeto foi criado para viabilizar se as paltas devem ser discutas ou não,
 
 ## Endpoints/API
 
+## Swagger Link
+
+- https://polling-system-kwaz.onrender.com/swagger-ui/index.html
+
 ### GET /count-votes
 - Descrição:
     - Endpoint com o intuito de retornar quantos votos tem em cada pauta criada.
