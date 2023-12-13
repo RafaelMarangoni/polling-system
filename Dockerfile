@@ -15,6 +15,6 @@ FROM openjdk:17-jdk-slim
 
 EXPOSE 9081
 
-COPY --from=build /target/polling-system-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=build /app/target/polling-system-0.0.1-SNAPSHOT.jar app.jar
 
 ENTRYPOINT ["java", "-jar", "app.jar"]
